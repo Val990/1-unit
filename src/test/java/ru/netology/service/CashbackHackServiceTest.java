@@ -53,6 +53,17 @@ public class CashbackHackServiceTest {
     }
 
     @Test
+    public void calculateCashbackFrom1() {
+
+        int amount = 1;
+        int expected = 999;
+
+        int actual = service.remain(amount);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
     public void calculateCashbackFrom1000() {
 
         int amount = 1000;
