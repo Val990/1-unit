@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
 
-    CashbackHackService service = new CashbackHackService();
+    public CashbackHackService service = new CashbackHackService();
 
     @Test
     public void calculateCashbackFrom900() {
